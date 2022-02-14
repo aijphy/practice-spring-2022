@@ -1,3 +1,6 @@
+#a python program to get urls from a google search
+
+#requests for API interaction, lxml for xml file format
 import requests,lxml
 # soup to parse data from xml format:
 from bs4 import BeautifulSoup
@@ -7,7 +10,7 @@ print('setting up request')
 url = "https://google.com/search"
 payload={}
 headers = {}
-#query:
+#query: can be changed or read in, currently static for simplicity
 params={'q':'climbing gym'}
 
 print('getting response, please hold...')
