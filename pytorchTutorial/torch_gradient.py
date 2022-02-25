@@ -1,4 +1,5 @@
 import torch
+import torch.nn as nn
 
 # f = w * x
 # f = 2 * x
