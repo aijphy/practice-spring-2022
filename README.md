@@ -1,3 +1,3 @@
-A repository for codes I write for practice with tools I'm learning.
+A repository for practicing mostly python.
 
 -Alex Johnson
