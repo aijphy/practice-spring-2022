@@ -47,7 +47,6 @@ while game_is_on:
     screen.update()
 
     if not paused:
-        screen.update()
         ball.move()
         l_paddle.move()
         r_paddle.move()
