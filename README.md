@@ -6,4 +6,4 @@ To learn about pytorch and practice machine learning, the pytorchTutorial direct
 
 I am also learning about APIs, so googleSearchforClimbingGym.py was my first time requesting from Google's search API.
 
--Alex Johnson
+- Alex Johnson
