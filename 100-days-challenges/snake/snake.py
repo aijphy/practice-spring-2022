@@ -1,5 +1,5 @@
 from turtle import Turtle
-COLOR = "blue"
+COLOR = "green"
 
 
 class Snake():
@@ -58,3 +58,9 @@ class Snake():
     def right(self):
         if(self.turtles[1].heading() != 180):
             self.turtles[0].setheading(0)
+
+    def reset(self):
+        for tim in self.turtles:
+            tim.reset()
+        #self.turtles[:].reset()
+        self.__init__()
